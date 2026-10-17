@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="AwwmHJ9Hl6zAhq11e6D3">
+    <mxGraphModel dx="953" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M7L2zrWua818bLh97D7M-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MainActivity" vertex="1">
+          <mxGeometry height="104" width="140" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-13" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SharkPeer" vertex="1">
+          <mxGeometry height="104" width="140" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-14" edge="1" parent="1" source="M7L2zrWua818bLh97D7M-13" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="M7L2zrWua818bLh97D7M-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="330" y="370" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SharkPKIComponent" vertex="1">
+          <mxGeometry height="104" width="140" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-20" edge="1" parent="1" source="M7L2zrWua818bLh97D7M-19" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="M7L2zrWua818bLh97D7M-13" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="392" as="sourcePoint" />
+            <mxPoint x="400" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WebGUI" vertex="1">
+          <mxGeometry height="104" width="140" x="670" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Some service&lt;div&gt;HTTP API?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="140" x="390" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-23" edge="1" parent="1" source="M7L2zrWua818bLh97D7M-22" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="M7L2zrWua818bLh97D7M-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="270" y="500" as="sourcePoint" />
+            <mxPoint x="270" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-24" edge="1" parent="1" source="M7L2zrWua818bLh97D7M-22" style="endArrow=block;dashed=1;html=1;rounded=0;startArrow=block;startFill=1;endFill=1;" target="M7L2zrWua818bLh97D7M-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="440" as="sourcePoint" />
+            <mxPoint x="640" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M7L2zrWua818bLh97D7M-25" connectable="0" parent="M7L2zrWua818bLh97D7M-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="exchange data" vertex="1">
+          <mxGeometry relative="1" x="-0.3901" y="1" as="geometry">
+            <mxPoint x="27" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
