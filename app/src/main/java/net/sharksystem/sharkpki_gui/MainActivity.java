@@ -13,13 +13,13 @@ import androidx.core.view.WindowInsetsCompat;
 import net.sharksystem.SharkException;
 import net.sharksystem.SharkPeer;
 import net.sharksystem.SharkPeerFS;
+import net.sharksystem.asap.ASAP;
 import net.sharksystem.pki.SharkPKIComponent;
 import net.sharksystem.pki.SharkPKIComponentFactory;
 
+// TODO: Probably move service logic into separate ASAPActivity.
 public class MainActivity extends AppCompatActivity {
     private boolean serviceActive = false;
-    private String SHARK_PEER_ID = "shark_pki_web_gui";
-    private String SHARK_PEER_ROOT = ".shark_pki_web_gui_data";
     private SharkPeer sharkPeer;
     private SharkPKIComponent sharkPKI;
 
@@ -44,9 +44,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initPKI() throws SharkException {
-        SharkPKIComponentFactory factory = new SharkPKIComponentFactory();
-        SharkPeer peer = new SharkPeerFS(this.SHARK_PEER_ID, this.SHARK_PEER_ROOT);
-        peer.addComponent(factory, SharkPKIComponent.class);
+        String peerID = ASAP.createUniqueID();
+        String peerRoot = ".shark_pki_web_gui_data";
+        SharkPeer peer = new SharkPeerFS(peerID, peerRoot);
+        peer.addComponent(new SharkPKIComponentFactory(), SharkPKIComponent.class);
         this.sharkPeer = peer;
         this.sharkPKI = (SharkPKIComponent) peer.getComponent(SharkPKIComponent.class);
     }
