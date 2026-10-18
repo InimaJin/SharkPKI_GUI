@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="AwwmHJ9Hl6zAhq11e6D3">
-    <mxGraphModel dx="953" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="M7L2zrWua818bLh97D7M-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WebGUI" vertex="1">
           <mxGeometry height="104" width="140" x="670" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="M7L2zrWua818bLh97D7M-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Some service&lt;div&gt;HTTP API?&lt;/div&gt;" vertex="1">
+        <mxCell id="M7L2zrWua818bLh97D7M-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=104;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WebSocket" vertex="1">
           <mxGeometry height="104" width="140" x="390" y="490" as="geometry" />
         </mxCell>
         <mxCell id="M7L2zrWua818bLh97D7M-23" edge="1" parent="1" source="M7L2zrWua818bLh97D7M-22" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" target="M7L2zrWua818bLh97D7M-1" value="">
