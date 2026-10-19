@@ -17,6 +17,8 @@ import net.sharksystem.asap.ASAP;
 import net.sharksystem.pki.SharkPKIComponent;
 import net.sharksystem.pki.SharkPKIComponentFactory;
 
+import net.sharksystem.asap.android.Util;
+
 // TODO: Probably move service logic into separate ASAPActivity.
 public class MainActivity extends AppCompatActivity {
     private boolean serviceActive = false;

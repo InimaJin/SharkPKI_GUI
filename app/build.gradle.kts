@@ -37,6 +37,7 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.material)
+    implementation(files("libs/ASAPAndroid.aar"))
     implementation(files("libs/ASAPJava.jar"))
     implementation(files("libs/SharkPKI.jar"))
     implementation(files("libs/SharkPeer.jar"))
