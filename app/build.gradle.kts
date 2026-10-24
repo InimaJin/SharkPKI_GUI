@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "net.sharksystem.sharkpki_gui"
-        minSdk = 24
+        minSdk = 34
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -38,7 +38,6 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.material)
     implementation(files("libs/ASAPAndroid.aar"))
-    implementation(files("libs/ASAPJava.jar"))
     implementation(files("libs/SharkPKI.jar"))
     implementation(files("libs/SharkPeer.jar"))
     testImplementation(libs.junit)
